@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/weeklyFragment">
+
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="adhanjas.com.example.navigationdemo.DiscoveryFragment"
+        android:label="fragment_discovery"
+        tools:layout="@layout/fragment_discovery" />
+    <fragment
+        android:id="@+id/magazineLockscreenFragment"
+        android:name="adhanjas.com.example.navigationdemo.MagazineLockscreenFragment"
+        android:label="fragment_magazine_lockscreen"
+        tools:layout="@layout/fragment_magazine_lockscreen" />
+    <fragment
+        android:id="@+id/myDiyFragment"
+        android:name="adhanjas.com.example.navigationdemo.MyDiyFragment"
+        android:label="fragment_my_diy"
+        tools:layout="@layout/fragment_my_diy" />
+    <fragment
+        android:id="@+id/myFontsFragment"
+        android:name="adhanjas.com.example.navigationdemo.MyFontsFragment"
+        android:label="fragment_my_fonts"
+        tools:layout="@layout/fragment_my_fonts" />
+    <fragment
+        android:id="@+id/myThemeFragment"
+        android:name="adhanjas.com.example.navigationdemo.MyThemeFragment"
+        android:label="fragment_my_theme"
+        tools:layout="@layout/fragment_my_theme" />
+    <fragment
+        android:id="@+id/myVideoShowFragment"
+        android:name="adhanjas.com.example.navigationdemo.MyVideoShowFragment"
+        android:label="fragment_my_video_show"
+        tools:layout="@layout/fragment_my_video_show" />
+    <fragment
+        android:id="@+id/myWallpaperFragment"
+        android:name="adhanjas.com.example.navigationdemo.MyWallpaperFragment"
+        android:label="fragment_my_wallpaper"
+        tools:layout="@layout/fragment_my_wallpaper" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="adhanjas.com.example.navigationdemo.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="adhanjas.com.example.navigationdemo.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="adhanjas.com.example.navigationdemo.ThemeFragment"
+        android:label="fragment_theme"
+        tools:layout="@layout/fragment_theme" />
+    <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="adhanjas.com.example.navigationdemo.WallpaperFragment"
+        android:label="fragment_wallpaper"
+        tools:layout="@layout/fragment_wallpaper" />
+    <fragment
+        android:id="@+id/weeklyFragment"
+        android:name="adhanjas.com.example.navigationdemo.WeeklyFragment"
+        android:label="fragment_weekly"
+        tools:layout="@layout/fragment_weekly" />
+</navigation>

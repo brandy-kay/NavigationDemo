@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myTheme"
+        android:title="My theme"
+        android:icon="@drawable/ic_theme">
+
+    </item>
+    <item android:title="My wallpaper"
+        android:id="@+id/wall"
+        android:icon="@drawable/ic_mywallpaper"
+        />
+    <item
+        android:title="My Diy"
+        android:id="@+id/diy"
+        android:icon="@drawable/ic_mydiy"/>
+    <item
+        android:title="My fonts"
+        android:id="@+id/font"
+        android:icon="@drawable/ic_myfonts"/>
+    <item
+        android:title="My Video show"
+        android:id="@+id/video"
+        android:icon="@drawable/ic_video"/>
+    <item
+        android:title="Magazine Lockscreen"
+        android:id="@+id/magazine"
+        android:icon="@drawable/ic_magazine"/>
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/set"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
